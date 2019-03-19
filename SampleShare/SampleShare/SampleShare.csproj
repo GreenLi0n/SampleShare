@@ -5,14 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <None Include="wwwroot\css\app.css" />
+    <None Include="wwwroot\css\foundation.css" />
+    <None Include="wwwroot\css\foundation.min.css" />
+    <None Include="wwwroot\js\app.js" />
+    <None Include="wwwroot\js\vendor\foundation.js" />
+    <None Include="wwwroot\js\vendor\foundation.min.js" />
+    <None Include="wwwroot\js\vendor\jquery.js" />
+    <None Include="wwwroot\js\vendor\what-input.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Views\Home\About - Copy.cshtml">
-      <Pack>$(IncludeRazorContentInPack)</Pack>
-    </Content>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
