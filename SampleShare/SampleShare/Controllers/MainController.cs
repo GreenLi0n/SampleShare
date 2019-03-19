@@ -8,7 +8,7 @@ using SampleShare.Models;
 
 namespace SampleShare.Controllers
 {
-    public class HomeController : Controller
+    public class MainController : Controller
     {
         public IActionResult Index()
         {
